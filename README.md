@@ -21,7 +21,7 @@ Steps to Install
 Clone the Repository:
 bash
 Copy code
-git clone https://github.com/yourusername/CalculatorApp.git
+git clone https://github.com/bektenovich/FXcalculator.git
 cd CalculatorApp
 Set Up Your IDE (e.g., IntelliJ IDEA):
 Open the project in your IDE.
