@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.calculator.HelloController">
+    <TextField fx:id="display" layoutX="14.0" layoutY="14.0" prefWidth="260.0" editable="false" />
+    <GridPane layoutX="14.0" layoutY="50.0" hgap="10" vgap="10">
+        <Button text="7" onAction="#handleButtonPress" />
+        <Button text="8" onAction="#handleButtonPress" />
+        <Button text="9" onAction="#handleButtonPress" />
+        <Button text="/" onAction="#handleButtonPress" />
+
+        <Button text="4" onAction="#handleButtonPress" />
+        <Button text="5" onAction="#handleButtonPress" />
+        <Button text="6" onAction="#handleButtonPress" />
+        <Button text="*" onAction="#handleButtonPress" />
+
+        <Button text="1" onAction="#handleButtonPress" />
+        <Button text="2" onAction="#handleButtonPress" />
+        <Button text="3" onAction="#handleButtonPress" />
+        <Button text="-" onAction="#handleButtonPress" />
+
+        <Button text="0" onAction="#handleButtonPress" />
+        <Button text="C" onAction="#handleButtonPress" />
+        <Button text="=" onAction="#handleButtonPress" />
+        <Button text="+" onAction="#handleButtonPress" />
+    </GridPane>
+</AnchorPane>
